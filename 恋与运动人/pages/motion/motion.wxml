@@ -1,0 +1,48 @@
+<view>
+  <view current="{{currentTab}}" autoplay="{{false}}" class="swiper-box {{maxheight}}" duration="300" bindchange="bindChange" >
+    <view >
+      <view class=" tabView1 {{tabviewOne}}">
+      <image src='{{img1}}' bindtap='deepKeen'></image>
+      <image src='{{img2}}'></image>
+      <image src='{{img3}}'></image>
+      <image src='{{img4}}'></image>
+      <image src='{{img5}}'></image>
+    </view>
+    </view>
+    <view class="tabView2 {{tabviewTwo}}">
+      <view class='bodyDisplay'>
+        <image src='{{display}}'></image>
+      </view>
+      <view class='firstCard'>
+        <text>总锻炼时长</text><text>{{sportTime}}</text>
+        <canvas canvas-id='canvasOne' class='canvas'></canvas>
+      </view>
+      <view class='secoundCard'>
+        <text>三围</text>
+        <canvas canvas-id='canvasTwo' class='canvas'></canvas>
+      </view>
+      <view class='thirdCard'>
+        <text>BMI</text>
+        <canvas canvas-id='canvasThree' class='canvas'></canvas>
+      </view>
+      <view class='fourthCard'>
+        <text>体重变化</text>
+        <canvas canvas-id='canvasFour' class='canvas'></canvas>
+      </view>
+    </view>
+  </view>
+</view>
+<cover-view class="swiper-tab">
+  <cover-view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}} " data-current="0" bindtap="swichNav">
+    <cover-image src='{{motion}}'></cover-image>
+    <cover-view>运动</cover-view>
+  </cover-view>
+  <cover-view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+    <cover-image src='{{record}}'></cover-image>
+    <cover-view>数据</cover-view>
+  </cover-view>
+</cover-view>
+<cover-view class='scan' bindtap='scan'>
+  <cover-image src='{{scan}}'></cover-image>
+</cover-view>
+

@@ -1,0 +1,20 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/Info/Info",
+    "pages/seting/seting",
+    "pages/scan/scan",
+    "pages/assess/assess",
+    "pages/motion/motion",
+    "pages/deepKeen/deepKeen",
+    "pages/achieve/achieve",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "恋与运动人",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,22 @@
+<!--seting.wxml-->
+<view class="mycontainer section section_gap" style='background: url("https://lg-lus2o5k0-1257321410.cos.ap-shanghai.myqcloud.com/index.png") no-repeat;background-size:375px 600px'>
+  <view class="userinfo">
+    <!-- <image src={{nouserInfo}} class='nouser-Info'></image> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" ></image>
+       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view> 
+  <view class="setForSex " scroll-x>
+  <view class=" chooseView">
+      <view >
+        <image class='humansex' src='{{woman}}' bindtap="chooseSex" id="sexForWoman"></image>
+        <text class='xiaojiejie'>小姐姐</text>
+      </view>
+      <view >
+        <image class='humansex' src='{{man}}' bindtap='chooseSex' id="sexForMan">{{woman}}</image>
+        <text class='xiaogege'>小哥哥</text>
+      </view>
+      <button class='gotoNext' bindtap='gotoNext'>{{nextStep}}</button>
+  </view>
+    
+  </view>
+</view>

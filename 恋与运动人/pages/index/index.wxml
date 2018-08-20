@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container" style='background: url("https://lg-lus2o5k0-1257321410.cos.ap-shanghai.myqcloud.com/index.png") no-repeat;background-size:375px 600px'>
+  <view class="userinfo">
+    <!-- <image src={{nouserInfo}} class='nouser-Info'></image> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" style='background:rgba(255,255,255,0.9) url("https://lg-lus2o5k0-1257321410.cos.ap-shanghai.myqcloud.com/wenhao.png") no-repeat center;'>
+      </image>
+      <text class='mystery'>{{userInfo.nickName}}</text>
+       <text class="userinfo-nickname">和小哥哥一起来运动吧!</text>
+       <text>{{hint}}</text>
+       <view >
+       </view>
+       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='getUser-Info' > 
+        授权
+       </button>
+         <button wx:else="{{!hasUserInfo && canIUse}}"  class='getUser-Info' bindtap="gotoNext"> 
+        GO~
+       </button>
+  </view> 
+</view>

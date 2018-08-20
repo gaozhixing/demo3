@@ -1,0 +1,90 @@
+/* pages/deepKeen/deepKeen.wxss */
+.myContent{
+  width: 375px;
+  height: 600px;
+  background: red;
+  background: url("https://lg-lus2o5k0-1257321410.cos.ap-shanghai.myqcloud.com/shendun.jpg") no-repeat center center;
+  background-size: 375px 600px;
+}
+.time{
+  position: absolute;
+  background: white;
+  left: 13px;
+  top: 30px;
+  width: 140px;
+  height: 61px;
+  line-height: 60px;
+  opacity: 0.4;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(117, 117, 117)
+}
+.degree{
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 145px;
+  right: 8px;
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px #fff;
+  font-weight: bold;
+  color: rgb(117, 117, 117)
+  
+}
+.btn{
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 30px;
+  display: none;
+  height: 30px;
+  z-index: 99;
+}
+.btn image{
+  width: 45px;
+  height: 45px;
+}
+.dialog{
+  position: fixed;
+  left: 4px;
+  bottom: 0px;
+  width: 360px;
+  height: 134px;
+  background: white;
+  display: block;
+  opacity: 0.6;
+  border-radius: 20px;
+  border: 5px solid rgb(153, 164, 149);
+}
+.dialog text{
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+}
+.result{
+  width: 220px;
+  height: 106px;
+  position: absolute;
+  top: 200px;
+  left: 96px;
+  background: white;
+  border-radius: 15px;
+  opacity: 0.6;
+  text-align: center;
+  line-height: 53px;
+  color: #0076ff;
+  display: none;
+}
+.show{
+  display: block;
+}
+.result .again{
+  height: 53px;
+  line-height: 53px;
+  color: orange;
+  border-bottom: 1px solid #666;
+
+}

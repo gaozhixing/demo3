@@ -1,0 +1,72 @@
+/* pages/Info/Info.wxss */
+.mycontainer{
+  background: red;
+  width: 100%;
+  height: 600px;  
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 35% 0 5% 0;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.userinfo-nickname {
+  color:#666;
+  width: 154px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+.setForSex{
+  /* background: rgba(255,255,255,0.8); */
+  background:rgba(255,255,255,0.8);
+  border-radius: 27px;
+  width: 327px;
+  height: 208px;
+  position: absolute;
+  top: 270px;
+  left: 24px;
+  white-space: nowrap;
+}
+.chooseView{
+  
+  margin-top:10%;
+  height:80%; 
+  font-size: 18px;
+  color: rgb(87,87,87);
+  line-height: 24px;
+  text-align: center;
+}
+
+.userInfo{
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+
+}
+.userInfo input{
+  width: 64px;
+  height: 20px;
+  border-bottom: 1px solid rgb(87,87,87);
+  display: inline-block;
+}
+.gotoNext{
+  width: 126px;
+  height: 37px;
+  border-radius: 14px;
+  background: linear-gradient(180deg,rgb(42,250,223), rgb(76,131,255));
+	color: white;
+  font-size: 18px;
+  line-height: 37px;
+  position: relative;
+  top: 20px;
+}

@@ -1,0 +1,54 @@
+<!--pages/assess/assess.wxml-->
+<view class='mycontainer'>
+  <view class='figureImgs'>
+    <image class='imgSrc' src='{{mySrc}}'></image>
+  </view>
+  <view class='statureInf'>
+    <text class='infTitle'>{{bodyType}}</text>
+    <text class='infCon'>
+      <!-- 下肢纤细修长、腰腹稍显突出，是较容易减肥的体型。建议塑形腰部和臀部。 -->
+      {{jieshao}}
+    </text>
+    <text class='suggest'>
+      {{advise}}
+      <!-- *建议进行深蹲运动 -->
+    </text>
+  </view>
+  <view class='detailedInf'>
+    <view class='detailedInfTop'>
+      <view class='userHeight'>
+        身高<text>{{height}}</text>CM
+      </view>
+       <view class='userweight'>
+        体重<text>{{weight}}</text>KG
+      </view>
+    </view>
+    <view class='detailedInfCon'>
+      <view>
+        <image class='detailedInfCon_img' src='{{firstImg}}'></image>
+        <text>肩宽</text>
+        <text>36-48</text>
+      </view>
+      <view>
+        <image class='detailedInfCon_img' src='{{secoundImg}}'></image>
+        <text>胸围</text>
+        <text>78-80</text>
+      </view>
+      <view>
+        <image class='detailedInfCon_img' src='{{thridImg}}'></image>
+        <text>腰围</text>
+        <text>70-72</text>
+      </view>
+      <view>
+        <image class='detailedInfCon_img' src='{{fourthImg}}'></image>
+        <text>臀围</text>
+        <text>92-95</text>
+      </view>
+    </view>
+    <view class='detailedInffooter'>
+      *此数据为评估数据
+    </view>
+  </view>
+  <button class='gotoNext' bindtap='gotoNext'>去运动吧</button>
+</view>
+

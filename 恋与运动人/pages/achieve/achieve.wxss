@@ -1,0 +1,36 @@
+/* pages/achieve/achieve.wxss */
+.myContent{
+  width: 375px;
+  height: 600px;
+}
+.myContent .img{
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.img .script{
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  bottom: 50px;
+  left: 90px;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.script text{
+  font-size: 30px;
+  padding:0px 10px;
+  text-shadow: 2px 2px 5px #666;
+}
+.download{
+  position: absolute;
+  left: 290px;
+  bottom: 50px;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(18, 150, 219, 1);
+
+}

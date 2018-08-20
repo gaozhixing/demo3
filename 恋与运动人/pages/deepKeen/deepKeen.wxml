@@ -1,0 +1,25 @@
+<!--pages/deepKeen/deepKeen.wxml-->
+<view class='myContent'>
+  <view class='time'>
+    <text>00'{{time}}'</text>
+  </view>
+  <view class='degree'>
+    <text>{{degree}}</text>次
+  </view>
+  <view class='btn {{btnshow}}' bindtap='startOrPause'>
+    <image src='{{btn}}'></image>
+  </view>
+  <view class='dialog'>
+    <text >{{dialog}}</text>
+  </view>
+  <view class='result {{show}}'>
+    <view class='again' bindtap='again'>
+      我还可以，再来一次！
+    </view>
+    <view class='finish' bindtap='finish'>
+      今天好累，去休息了~
+    </view>
+  </view>
+  <audio src="{{src1}}" id="myAudio" bindended="funended" bindtimeupdate="funtimeupdate"></audio>
+   <audio src="{{src2}}" id="myAudio2" bindended="funended2" bindtimeupdate="funtimeupdate2"></audio>
+</view> 

@@ -1,0 +1,11 @@
+<!--pages/achieve/achieve.wxml-->
+<view class='myContent'>
+  <image src='{{achieve}}' class='img'>
+    <text class='script'>
+      你好棒，这次运动消耗了<image src="{{food}}"></image>
+      今天是和你的第<text>{{num}}</text>天
+      下次，我还在这里等你哦~
+    </text>
+    <image src='{{download}}' class='download'></image>
+  </image>
+</view>

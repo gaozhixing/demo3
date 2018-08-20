@@ -1,0 +1,19 @@
+<!--seting.wxml-->
+<view class="mycontainer section section_gap" style='background: url("https://lg-lus2o5k0-1257321410.cos.ap-shanghai.myqcloud.com/index.png") no-repeat;background-size:100% 100%'>
+  <view class="userinfo">
+    <!-- <image src={{nouserInfo}} class='nouser-Info'></image> -->
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="setForSex ">
+    <view class=" chooseView">
+      <view class="section userInfo userHeight">
+        身高:<input type="text" bindinput='getHeight' />CM
+      </view>
+      <view class="section userInfo userWeight">
+        体重:<input type="text" bindinput='getWeight'/>KG
+      </view>
+      <button class='gotoNext' bindtap='gotoNext'>{{nextStep}}</button>
+    </view>
+  </view>
+</view>
