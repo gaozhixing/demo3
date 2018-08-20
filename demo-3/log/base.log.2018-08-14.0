@@ -1,0 +1,701 @@
+2018-08-14 14:36:39,576 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 7636 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 14:36:39,578 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 14:36:39,578 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 14:36:43,606 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 4.344 seconds (JVM running for 4.924)
+2018-08-14 14:37:00,059 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 27000 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 14:37:00,067 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 14:37:00,067 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 14:37:05,542 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.981 seconds (JVM running for 7.033)
+2018-08-14 14:37:25,631 DEBUG (FileUploadController.java:39)- path=C:\Users\Xing\inputstd\
+2018-08-14 14:38:22,126 DEBUG (FileUploadController.java:77)- destPath=C:\Users\Xing\inputstd\null.jpg
+2018-08-14 14:41:39,542 ERROR (FileUploadController.java:95)- 
+java.lang.NullPointerException: null
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 14:47:50,554 DEBUG (FileUploadController.java:39)- path=C:\Users\Xing\inputstd\
+2018-08-14 14:59:34,064 DEBUG (FileUploadController.java:39)- path=C:\Users\Xing\inputstd\
+2018-08-14 14:59:35,733 DEBUG (FileUploadController.java:78)- destPath=C:\Users\Xing\inputstd\null.jpg
+2018-08-14 14:59:35,735 ERROR (FileUploadController.java:96)- 
+java.lang.NullPointerException: null
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:00:25,866 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 24532 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:00:25,872 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:00:25,873 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:00:31,425 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.031 seconds (JVM running for 7.004)
+2018-08-14 15:00:42,564 DEBUG (FileUploadController.java:41)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:00:43,386 DEBUG (FileUploadController.java:80)- destPath=C:\Users\Xing\inputstd\null.jpg
+2018-08-14 15:00:43,391 ERROR (FileUploadController.java:98)- 
+java.lang.NullPointerException: null
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:01:51,883 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 19988 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:01:51,885 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:01:51,885 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:01:55,735 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 4.167 seconds (JVM running for 4.711)
+2018-08-14 15:02:00,091 DEBUG (FileUploadController.java:41)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:02:00,111 DEBUG (FileUploadController.java:80)- destPath=C:\Users\Xing\inputstd\测试.jpg
+2018-08-14 15:02:00,115 ERROR (FileUploadController.java:98)- 
+java.lang.NullPointerException: null
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:02:39,579 DEBUG (FileUploadController.java:41)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:02:39,580 DEBUG (FileUploadController.java:80)- destPath=C:\Users\Xing\inputstd\测试.jpg
+2018-08-14 15:02:39,584 ERROR (FileUploadController.java:98)- 
+java.lang.NullPointerException: null
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:04:18,253 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 22812 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:04:18,257 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:04:18,257 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:04:23,692 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.916 seconds (JVM running for 6.879)
+2018-08-14 15:04:29,271 DEBUG (FileUploadController.java:41)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:09:55,558 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 15804 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:09:55,565 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:09:55,565 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:10:01,768 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.697 seconds (JVM running for 7.671)
+2018-08-14 15:19:19,945 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 14520 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:19:19,960 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:19:19,960 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:19:25,226 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.768 seconds (JVM running for 6.734)
+2018-08-14 15:19:30,252 DEBUG (FileUploadController.java:42)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:19:56,454 DEBUG (FileUploadController.java:75)- destPath=C:\Users\Xing\inputstd\测试.jpg
+2018-08-14 15:31:58,103 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 15392 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:31:58,106 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:31:58,107 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:33:16,039 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 14980 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:33:16,043 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:33:16,043 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:33:21,687 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.463 seconds (JVM running for 7.448)
+2018-08-14 15:33:38,975 DEBUG (FileUploadController.java:43)- path=C:\Users\Xing\inputstd\
+2018-08-14 15:33:38,984 DEBUG (FileUploadController.java:77)- destPath=C:\Users\Xing\inputstd\测试.jpg
+2018-08-14 15:46:17,397 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 17772 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:46:17,402 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:46:17,402 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:46:22,747 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.829 seconds (JVM running for 6.815)
+2018-08-14 15:46:52,565 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:46:52,566 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:46:52,606 ERROR (ExceptionHandle.java:31)- 系统异常{}
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at com.example.demo1.util.CompareUtil.compare(CompareUtil.java:21)
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:48:42,779 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 30768 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:48:42,783 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:48:42,783 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:48:48,640 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.349 seconds (JVM running for 7.377)
+2018-08-14 15:48:56,699 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:48:56,700 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:48:56,737 ERROR (ExceptionHandle.java:31)- 系统异常{}
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at com.example.demo1.util.CompareUtil.compare(CompareUtil.java:21)
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:49:39,786 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 27572 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:49:39,791 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:49:39,791 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:49:45,309 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.003 seconds (JVM running for 6.944)
+2018-08-14 15:49:56,547 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:49:56,548 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:49:56,587 ERROR (ExceptionHandle.java:31)- 系统异常{}
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(Unknown Source)
+	at com.example.demo1.util.CompareUtil.compare(CompareUtil.java:21)
+	at com.example.demo1.controller.FileUploadController.uploadPicture(FileUploadController.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 15:50:26,496 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:50:33,681 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:51:18,896 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 24648 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:51:18,900 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:51:18,900 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:51:24,419 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.996 seconds (JVM running for 6.931)
+2018-08-14 15:51:40,926 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:51:40,926 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:54:31,893 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 9836 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:54:31,897 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:54:31,898 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:54:37,374 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 5.947 seconds (JVM running for 6.898)
+2018-08-14 15:54:59,368 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:54:59,368 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 15:57:13,757 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 13036 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 15:57:13,762 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 15:57:13,762 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 15:57:19,614 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.33 seconds (JVM running for 7.404)
+2018-08-14 15:57:24,407 DEBUG (FileUploadController.java:44)- path=C:\Users\Xing\testinput\
+2018-08-14 15:57:24,408 DEBUG (FileUploadController.java:55)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 16:12:20,797 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 14276 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 16:12:20,801 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 16:12:20,802 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 16:12:26,261 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.105 seconds (JVM running for 7.105)
+2018-08-14 16:12:40,458 DEBUG (FileUploadController.java:45)- path=C:\Users\Xing\testinput
+2018-08-14 16:12:40,459 DEBUG (FileUploadController.java:56)- destPath=C:\Users\Xing\testinput\测试.jpg
+2018-08-14 16:27:06,051 ERROR (ExceptionHandle.java:31)- 系统异常{}
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.RedisTemplate.hasKey(RedisTemplate.java:658)
+	at com.example.demo1.util.RedisClient.get(RedisClient.java:34)
+	at com.example.demo1.controller.UserController.queryUser(UserController.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194)
+	... 63 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR invalid password
+	at redis.clients.jedis.Protocol.processError(Protocol.java:127)
+	at redis.clients.jedis.Protocol.process(Protocol.java:161)
+	at redis.clients.jedis.Protocol.read(Protocol.java:215)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:340)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:239)
+	at redis.clients.jedis.BinaryJedis.auth(BinaryJedis.java:2139)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:108)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:888)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:432)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:361)
+	at redis.clients.util.Pool.getResource(Pool.java:49)
+	... 66 common frames omitted
+2018-08-14 16:28:09,496 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 23080 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 16:28:09,501 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 16:28:09,501 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 16:28:15,033 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 6.034 seconds (JVM running for 6.997)
+2018-08-14 16:28:18,920 INFO (RedisClient.java:38)- 缓存未命中,改从库中查找
+2018-08-14 16:28:18,925 INFO (HttpAspect.java:46)- url=http://localhost:8080/user/query
+2018-08-14 16:28:18,925 INFO (HttpAspect.java:48)- method=GET
+2018-08-14 16:28:18,925 INFO (HttpAspect.java:50)- id=0:0:0:0:0:0:0:1
+2018-08-14 16:28:18,927 INFO (HttpAspect.java:52)- class_method=com.example.demo1.service.UserService,queryUserById
+2018-08-14 16:28:18,928 INFO (HttpAspect.java:54)- args=1
+2018-08-14 16:29:06,136 INFO (StartupInfoLogger.java:48)- Starting Demo1Application on GAOZHIXING with PID 4172 (C:\Users\Xing\eclipse-workspace\demo-3\target\classes started by Xing in C:\Users\Xing\eclipse-workspace\demo-3)
+2018-08-14 16:29:06,149 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-08-14 16:29:06,149 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2018-08-14 16:29:10,221 INFO (StartupInfoLogger.java:57)- Started Demo1Application in 4.404 seconds (JVM running for 4.969)
+2018-08-14 16:29:17,980 INFO (RedisClient.java:38)- 缓存未命中,改从库中查找
+2018-08-14 16:29:17,985 INFO (HttpAspect.java:46)- url=http://localhost:8080/user/query
+2018-08-14 16:29:17,985 INFO (HttpAspect.java:48)- method=GET
+2018-08-14 16:29:17,986 INFO (HttpAspect.java:50)- id=0:0:0:0:0:0:0:1
+2018-08-14 16:29:17,989 INFO (HttpAspect.java:52)- class_method=com.example.demo1.service.UserService,queryUserById
+2018-08-14 16:29:17,990 INFO (HttpAspect.java:54)- args=1
+2018-08-14 16:29:18,281 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,age FROM t_user WHERE id = ? 
+2018-08-14 16:29:18,326 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-08-14 16:29:18,347 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-08-14 16:29:18,350 INFO (HttpAspect.java:79)- 调用方法=com.example.demo1.service.UserService,queryUserById
+2018-08-14 16:29:18,350 INFO (HttpAspect.java:81)- 请求参数=1
+2018-08-14 16:29:18,418 INFO (HttpAspect.java:84)- 返回结果response={"resultCode":"-102","resultMsg":"查询结果为空"}
+2018-08-14 17:09:09,013 INFO (HttpAspect.java:46)- url=http://localhost:8080/user/queryList
+2018-08-14 17:09:09,014 INFO (HttpAspect.java:48)- method=GET
+2018-08-14 17:09:09,014 INFO (HttpAspect.java:50)- id=0:0:0:0:0:0:0:1
+2018-08-14 17:09:09,015 INFO (HttpAspect.java:52)- class_method=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:09:09,016 INFO (HttpAspect.java:54)- args={}
+2018-08-14 17:09:09,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,age FROM t_user 
+2018-08-14 17:09:09,031 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-14 17:09:09,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-08-14 17:09:09,040 INFO (HttpAspect.java:79)- 调用方法=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:09:09,040 INFO (HttpAspect.java:81)- 请求参数={}
+2018-08-14 17:09:09,053 INFO (HttpAspect.java:84)- 返回结果response={"data":[{"age":999,"id":2,"name":"xiaoming"},{"age":999,"id":3,"name":"xiaoming"},{"age":999,"id":4,"name":"xiaoming"}],"resultCode":"000","resultMsg":"success"}
+2018-08-14 17:16:07,030 INFO (HttpAspect.java:46)- url=http://localhost:8080/user/queryList
+2018-08-14 17:16:07,031 INFO (HttpAspect.java:48)- method=GET
+2018-08-14 17:16:07,031 INFO (HttpAspect.java:50)- id=0:0:0:0:0:0:0:1
+2018-08-14 17:16:07,031 INFO (HttpAspect.java:52)- class_method=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:16:07,032 INFO (HttpAspect.java:54)- args={}
+2018-08-14 17:16:07,036 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,age FROM t_user 
+2018-08-14 17:16:07,037 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-14 17:16:07,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-08-14 17:16:07,039 INFO (HttpAspect.java:79)- 调用方法=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:16:07,040 INFO (HttpAspect.java:81)- 请求参数={}
+2018-08-14 17:16:07,040 INFO (HttpAspect.java:84)- 返回结果response={"data":[{"age":999,"id":2,"name":"xiaoming"},{"age":999,"id":3,"name":"xiaoming"},{"age":999,"id":4,"name":"xiaoming"}],"resultCode":"000","resultMsg":"success"}
+2018-08-14 17:22:31,322 INFO (HttpAspect.java:46)- url=http://localhost:8080/user/queryList
+2018-08-14 17:22:31,323 INFO (HttpAspect.java:48)- method=GET
+2018-08-14 17:22:31,323 INFO (HttpAspect.java:50)- id=0:0:0:0:0:0:0:1
+2018-08-14 17:22:31,323 INFO (HttpAspect.java:52)- class_method=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:22:31,323 INFO (HttpAspect.java:54)- args={}
+2018-08-14 17:22:31,324 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id,name,age FROM t_user 
+2018-08-14 17:22:31,325 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-14 17:22:31,327 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2018-08-14 17:22:31,327 INFO (HttpAspect.java:79)- 调用方法=com.example.demo1.service.UserService,queryUserList
+2018-08-14 17:22:31,327 INFO (HttpAspect.java:81)- 请求参数={}
+2018-08-14 17:22:31,328 INFO (HttpAspect.java:84)- 返回结果response={"data":[{"age":999,"id":2,"name":"xiaoming"},{"age":999,"id":3,"name":"xiaoming"},{"age":999,"id":4,"name":"xiaoming"}],"resultCode":"000","resultMsg":"success"}

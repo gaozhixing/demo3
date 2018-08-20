@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo1.domain.UserDao">
+ 
+    <insert id="createUser" useGeneratedKeys="true" keyProperty="user.id" parameterType="com.example.demo1.domain.User">
+        INSERT INTO t_user(id,sex) VALUES (#(user.id,jdbcType=VARCHAR),#(user.sex,jdbcType=VARCHAR))
+    </insert>
+   
+    <update id="updateUserById">
+        UPDATE t_user SET bodyType =#{user.bodyType} ,bodyDesc = #{user.bodyDesc},advise = #{user.advise} WHERE id = #{user.id}
+    </update>
+
+    <select id="queryUserById" resultType="com.example.demo1.domain.User">
+        SELECT * FROM t_user WHERE id = #{id}
+    </select>
+    
+    <select id="queryUserList" resultType="com.example.demo1.domain.User">
+        SELECT * FROM t_user
+    </select>
+
+    <delete id="deleteUserById">
+        DELETE FROM t_user WHERE id = #{id}
+    </delete>
+
+</mapper>
